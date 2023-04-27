@@ -1,0 +1,104 @@
+body {
+  background-color: #2d3436;
+}
+
+/* Navbar */
+
+.links {
+  font-size: larger;
+}
+
+/* Description */
+.card-description {
+  margin-top: 150px;
+  /* display: flex;
+  justify-content: center; */
+  /* margin-left: 10%; */
+}
+
+.card-title-description {
+  color: #00b894;
+  padding: 10px;
+  font-size: 2.3em;
+}
+
+.card-text-description {
+  color: #636e72;
+  text-align: justify;
+  padding: 5px;
+  font-size: 1.19em;
+}
+
+/* Illustration */
+.card-illustration{
+  margin-top: 80px;
+  /* margin-left: 10%;
+  width: 75%;
+  max-width: 450px; */
+  background-color: #2d3436;
+  border: none;
+}
+
+.typed-1 {
+  color: #636e72;
+}
+
+/* Skills */
+
+.tech-icons {
+  font-size: 5.5em;
+  color: aliceblue;
+  margin: 15px;
+  padding: 10px;
+  opacity: 0.93;
+  border: 2px solid rgba(200, 137, 230, 0.637);
+  vertical-align: middle;
+  text-align: center;
+  border-radius: 5px;
+  display: table;
+  box-shadow: 4px 5px 4px 3px rgba(89, 4, 168, 0.137);
+  overflow: hidden;
+  transition: all 0.4s ease 0s;
+  padding-bottom: 2%;
+}
+
+@media (max-width: 767px) {
+  .tech-icons {
+    margin: 10px;
+  }
+}
+
+.tech-icons:hover {
+  transform: scale(1.05);
+  overflow: hidden;
+  border: 2.4px solid rgba(197, 115, 230, 0.883);
+}
+.tech-icon-images {
+  padding: 20px;
+  line-height: 1.6;
+}
+
+.skills-card{
+  margin-top: 10%;
+  margin-bottom: 4%;
+  background-color: #2d3436;
+  border: none;
+}
+.Skills-card-title {
+  color: #00b894;
+  text-align: center;
+  font-size: 5em;
+  padding-bottom: 4%;
+}
+
+.Skills-card-title-technos{
+  color: aliceblue;
+  font-size: 2.5em;
+  text-align: center;
+}
+
+.Skills-card-title-outils {
+  color:aliceblue;
+  font-size: 2.5em;
+  text-align: center;
+}
